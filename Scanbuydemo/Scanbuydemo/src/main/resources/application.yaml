@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://avnadmin:AVNS_yC-0Do9RGI8OzOa9BOP@scanbuy-scanbuy.aivencloud.com:14060/scanbuy?ssl-mode=REQUIRED&sslrootcert=ca.pem
+    username: avnadmin
+    password: AVNS_yC-0Do9RGI8OzOa9BOP
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa.hibernate.ddl_auto: update
+  jpa.show-sql: true
